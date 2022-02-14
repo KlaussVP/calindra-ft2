@@ -10,12 +10,10 @@ import Header from "./components/Header";
 export default function App() {
   return (
     <Router>
-      <SearchProvider>
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home/>}/>
-        </Routes>
-      </SearchProvider>
+      <Header />
+      <Routes>
+        {/* <Route path="/" element={<Home />}/> */}
+      </Routes>
     </Router>
   );
 }

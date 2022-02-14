@@ -23,7 +23,7 @@ module.exports = {
   devServer: {
     static: "./public",
     compress: true,
-    port: 9000,
+    port: 9001,
     historyApiFallback: true,
   },
   mode: process.env.NODE_ENV === "production" ? "production" : "development"
