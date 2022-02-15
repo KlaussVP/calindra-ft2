@@ -7,7 +7,7 @@ export default function Header() {
     <HeaderContainer>
      <Logo>
        <LogoMark>
-        <div></div>
+        <img src="images/logo.png"/>
        </LogoMark>
        <LogoType>
          <h1>zutterman</h1>
