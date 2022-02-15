@@ -24,10 +24,10 @@ const LandingContainer = styled.section`
     margin-right: 27px;
   }
 
-  .dummy {
+  img {
     width: 682px;
     height: 335px;
-    background: #EFC75E;
+    background: red;
   }
 `;
 
@@ -65,14 +65,13 @@ const PresentationContainer = styled.section`
     }
   }
 
-  .dummy {
+  img {
     position: absolute;
     top: 83px;
     right: 0;
     width: 1038px;
     height: 689px;
     opacity: 70%;
-    background: #394A1D;
   }
 `;
 
