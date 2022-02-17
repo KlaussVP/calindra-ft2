@@ -1,5 +1,5 @@
 import React from "react";
-import { HomeContainer, LandingContainer, PresentationContainer } from "./styled";
+import { HomeContainer, LandingContainer, PresentationContainer } from "./styles";
 
 export default function Home() {
   return (

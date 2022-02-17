@@ -8,6 +8,12 @@ const HeaderContainer = styled.header`
   justify-content: space-between;
   align-items: center;
   background: #FFF;
+
+  @media (max-width: 1024px) {
+    padding: 5px 20px;
+    position: relative;
+    height: 57px;
+  }
 `;
 
 const Logo = styled.div`
@@ -15,16 +21,46 @@ const Logo = styled.div`
   justify-content: space-between;
   align-items: center;
   margin-left: 23px;
+
+  @media (max-width: 1024px) {
+    margin-left: 2px;
+    width: 100%;
+  }
+`;
+
+const DropDownMenu = styled.div`
+  display: none;
+
+  @media (max-width: 1024px) {
+    display: block;
+    font-size: 1.625em;
+    margin-left: 2px;
+    color: #E2E0B8;
+    cursor: pointer;
+  }
 `;
 
 const LogoMark = styled.div`
   height: 70px;
-  width: 70px;
+  width: 71px;
 
-  div {
+  img {
     height: 100%;
     width: 100%;
-    background: #EFC75E;
+
+    @media (max-width: 1024px) {
+      height: 39px;
+      width: 40px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    position: absolute;
+    height: initial;
+    width: 100%;
+    margin: 8px 0 10px;
+    top: 0;
+    left: calc((100vw - 40px)/2);
   }
 `;
 
@@ -47,6 +83,10 @@ const LogoType = styled.div`
     letter-spacing: 5.4px;
     font-weight: 300;
   }
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
 `;
 
 const Menu = styled.nav`
@@ -66,11 +106,16 @@ const Menu = styled.nav`
     margin-right: 128px;
     margin-left: 127px;
   }
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
 `;
 
 export {
   HeaderContainer,
   Logo,
+  DropDownMenu,
   LogoMark,
   LogoType,
   Menu
