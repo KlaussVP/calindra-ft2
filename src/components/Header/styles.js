@@ -57,7 +57,6 @@ const LogoMark = styled.div`
   @media (max-width: 1024px) {
     position: absolute;
     height: initial;
-    width: 100%;
     margin: 8px 0 10px;
     top: 0;
     left: calc((100vw - 40px)/2);
