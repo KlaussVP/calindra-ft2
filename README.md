@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/images/big_logo.png" width="310" alt="Calindra-ft2" />
+  <img src="public/images/big_logo.png" width="150px" alt="Calindra-ft2" />
 </p>
 
 # Calindra-ft2
