@@ -6,12 +6,22 @@ const FooterContainer = styled.footer`
   align-items: center;
   padding: 47px 151px;
   color: #716565;
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    padding: 41px 75px;
+  }
 `;
 
 const FooterContent = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 1024px) {
+    width: 100%;
+    flex-direction: column;
+  }
 `;
 
 const FollowUs = styled.div`
@@ -26,6 +36,17 @@ const FollowUs = styled.div`
     font-size: 27.2px;
     line-height: 32px;
     margin-bottom: 15px;
+
+    @media (max-width: 1024p) {
+      margin-bottom: 21px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    margin-right: 0;
+    margin-left: 1px;
+    margin-bottom: 40px;
+    align-items: center;
   }
 `;
 
@@ -67,6 +88,10 @@ const Contact = styled.div`
   p {
     font-size: 16.2px;
     line-height: 19px;
+  }
+
+  @media (max-width: 1024px) {
+    align-items: center;
   }
 `;
 
